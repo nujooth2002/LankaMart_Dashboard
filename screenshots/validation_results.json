@@ -1,0 +1,85 @@
+{
+  "captured_at_utc": "2026-09-14T08:24:26.359347+00:00",
+  "python": "3.14.7",
+  "libraries": {
+    "streamlit": "1.63.0",
+    "pandas": "3.0.5",
+    "plotly": "6.9.0",
+    "numpy": "2.5.3"
+  },
+  "csv_sha256": "db0e42a6ced93541171d95b15c14bf8d35197bfa7d862558af5e30c8778f93b7",
+  "source_audit": {
+    "source_rows": 721,
+    "prepared_rows": 720,
+    "exact_duplicates": 1,
+    "repeated_order_ids": 1,
+    "conflicting_order_ids": 0,
+    "profit_identity_mismatches": 0,
+    "revenue_formula_mismatches": 0,
+    "store_nonzero_delivery": 0,
+    "category_corrections": 1,
+    "source_missing_ratings": 42,
+    "prepared_missing_ratings": 42,
+    "zero_revenue_rows": 0
+  },
+  "browser_states": [
+    {
+      "state": "All data",
+      "kpis": {
+        "revenue": 18621105.0,
+        "profit": 6084741.0,
+        "transactions": 720,
+        "profit_margin": 32.67658390842004,
+        "returned_count": 37,
+        "return_rate": 5.138888888888888
+      }
+    },
+    {
+      "state": "Online / Electronics",
+      "kpis": {
+        "revenue": 1660223.0,
+        "profit": 465263.0,
+        "transactions": 55,
+        "profit_margin": 28.024126879340912,
+        "returned_count": 6,
+        "return_rate": 10.909090909090908
+      },
+      "rendered_scatter_points": 55
+    },
+    {
+      "state": "Mobile App / Beauty",
+      "kpis": {
+        "revenue": 938740.0,
+        "profit": 361240.0,
+        "transactions": 44,
+        "profit_margin": 38.48136864307476,
+        "returned_count": 1,
+        "return_rate": 2.272727272727273
+      },
+      "rendered_scatter_points": 44
+    },
+    {
+      "state": "Through 2026-03-31",
+      "kpis": {
+        "revenue": 9708317.0,
+        "profit": 3132235.0,
+        "transactions": 368,
+        "profit_margin": 32.263419086953995,
+        "returned_count": 17,
+        "return_rate": 4.619565217391304
+      }
+    }
+  ],
+  "download_verified_rows": 720,
+  "mobile_width_px": 390,
+  "mobile_horizontal_overflow": false,
+  "browser_errors": [],
+  "source_copy_matches_original": true,
+  "automated_tests": {
+    "command": "python -m unittest discover -s tests -v",
+    "tests": 9,
+    "result": "passed",
+    "duration_seconds": 26.584
+  },
+  "mobile_sidebar_collapses": true
+}
